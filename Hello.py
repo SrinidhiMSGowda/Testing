@@ -45,6 +45,6 @@ print(text[-6:-2]) #Negative indexing
 print()
 print(text[0:4]) #positive indexing 
 print()
-print(text[2:5]) #Slicing with step
+print(text[2:5]) #Slicing with step positive
 print()
-print(text[-4:-1])
+print(text[-4:-1]) #Negative slicing 
