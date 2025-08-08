@@ -48,4 +48,4 @@ print()
 print(text[2:5]) #Slicing with step positive
 print()
 print(text[-4:-1]) #Negative slicing 
-#git status
+
