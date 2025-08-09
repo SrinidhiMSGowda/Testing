@@ -49,9 +49,3 @@ print(text[2:5]) #Slicing with step positive
 print()
 print(text[-4:-1]) #Negative slicing 
 
-# ...existing code...
-
-# Print numbers from 1 to 10
-for i in range(1, 11):
-    print(i)
-# ...existing code...
