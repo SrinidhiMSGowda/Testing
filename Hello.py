@@ -48,4 +48,49 @@ print()
 print(text[2:5]) #Slicing with step positive
 print()
 print(text[-4:-1]) #Negative slicing 
+print()
 
+#conditional statement
+age = int(input("Enter your age: "))
+if age > 18:
+    print("You are a Adult")
+elif age >= 13:
+    print("You are a Teenager")
+else:
+    print("You are a Child")
+
+#Loop 
+for i in range(1, 5):
+    print(i)
+    print()
+
+#while loop
+count = 1
+while count <= 3:
+    print(count)
+    count += 1  
+    print()
+
+#Nested Loop
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
+        print()
+import random
+
+number = random.randint(1, 100)
+attepts = 0
+
+print ("Welcome to the Guess the Number Game!")
+
+while True:
+    guess = int(input("Enter your guess: "))
+    attepts += 1
+    
+    if guess < number:
+        print("Too low! Try again.")
+    elif guess > number:
+        print("Too high! Try again.")
+    else:
+        print(f"Congratulations! You've guessed the number {number} in {attepts} attempts.")
+        break
